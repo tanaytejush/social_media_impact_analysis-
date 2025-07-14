@@ -48,5 +48,5 @@ Scipy (for t-tests & correlations)
 
 Jupyter Notebook
 
-"The things we give our attention to shape how we experience life—moment by moment. This project is just a gentle reminder to be more mindful of how we use social media, especially while we're still growing and figuring out who we are."
+"The things we give our attention to shape how we experience life moment by moment. This project is just a gentle reminder to be more mindful of how we use social media, especially while we're still growing and figuring out who we are."
 
