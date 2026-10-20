@@ -1,52 +1,48 @@
-# social_media_impact_analysis-
-This project explores how social media addiction affects students' lives, focusing on its impact on academic performance, sleep, and mental health. Using data analysis and visualization, it uncovers patterns that show the real-world consequences of excessive screen time in a student’s daily routine.
+# Social Media Impact Analysis
 
-📊 Project Overview
-This project analyzes how social media usage impacts students' academic performance, mental health, and sleep habits.
-By exploring real-world data, the project uncovers patterns that highlight both the boon and threat of social media in modern student life.
+How does social media addiction affect students' lives? This project looks at its impact on **academic performance, sleep and mental health**, using data analysis, visualisation and statistical tests.
 
-The study uses Exploratory Data Analysis (EDA), visualizations, and statistical tests to better understand student behavior related to social media addiction.
+## What I did
 
-📈 What I Did
-Cleaned and explored a dataset on students' social media habits.
+- Cleaned and explored a dataset on students' social media habits
+- Built correlation heatmaps, scatter plots, boxplots and regression lines
+- Ran independent t-tests to compare students who say social media affects their studies with those who do not
+- Ran correlation analysis between addiction, sleep and mental health
+- Summarised the results into practical insights
 
-Created correlation heatmaps, scatter plots, boxplots, and regression lines for visualization.
+## Key insights
 
-Performed independent t-tests to find statistically significant differences between students affected by social media and those who are not.
+- **Most addictive platforms**: Instagram, TikTok and Snapchat had higher addiction scores than other platforms.
+- **Academic impact**: students who said social media affects their academics had higher daily usage and addiction scores. The t-tests showed this difference is statistically significant.
+- **Sleep and mental health**: addiction is negatively correlated with both. More addicted students tend to sleep less and report poorer mental health.
+- **Mental health vs addiction**: as addiction rises, mental health scores fall.
 
-Conducted correlation analysis to see how addiction relates to sleep and mental health.
+### Two sides of social media
 
-Summarized findings into actionable insights to raise awareness about digital behavior.
+Social media helps students stay connected, learn and express themselves. Overused, it drains focus, disturbs sleep and fuels endless scrolling and unhealthy comparison.
 
-💡 Key Insights
-Most Addictive Platforms:
-Platforms like Instagram, TikTok, and Snapchat showed higher addiction scores compared to others. This highlights where students are spending most of their digital time.
+## Files
 
-Academic Performance Impact:
-Students who reported that social media affects their academics actually had higher daily usage and addiction scores. This was statistically proven using t-tests.
+| File | Description |
+|------|-------------|
+| `student_addiction_analysis.ipynb` | Overall exploration of addiction scores |
+| `most_addictive_platform.ipynb` | Platform-by-platform comparison |
+| `impact_of_social_media_on_academics.ipynb` | Academic impact and t-tests |
+| `sleep_mental_health_analysis.ipynb` | Sleep and mental health correlations |
+| `Students Social Media Addiction.csv` | Original dataset |
+| `Cleaned_Social_Media_Students.csv` | Cleaned dataset |
 
-Sleep and Mental Health Correlation:
-There is a negative correlation between social media addiction and sleep/mental health. Students who are more addicted to social media tend to sleep less and report poorer mental health.
+## Run it
 
-Mental Health vs Addiction:
-The data clearly showed that as addiction increases, mental health decreases. This highlights a real emotional and psychological cost of excessive online engagement.
+```bash
+pip install pandas seaborn matplotlib scipy jupyter
+jupyter notebook
+```
 
-⚡ The Light Side:
-Social media helps students stay connected, learn new things, and express their creativity. It’s a tool for networking, sharing ideas, and exploring the world beyond classrooms.
+Open any notebook and run the cells in order.
 
-⚠️ The Dark Side:
-But when it’s overused, it can drain focus, disturb sleep, and harm mental health. It often leads to endless scrolling, unhealthy comparisons, and procrastination that affect daily life.
+## Tech stack
 
-🛠️ Tools & Libraries
-Python 
+Python, pandas, seaborn, matplotlib, SciPy (t-tests and correlations), Jupyter Notebook
 
-Pandas
-
-Seaborn & Matplotlib
-
-Scipy (for t-tests & correlations)
-
-Jupyter Notebook
-
-"The things we give our attention to shape how we experience life moment by moment. This project is just a gentle reminder to be more mindful of how we use social media, especially while we're still growing and figuring out who we are."
-
+> The things we give our attention to shape how we experience life. This project is a gentle reminder to be mindful of how we use social media.
