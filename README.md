@@ -46,3 +46,8 @@ Open any notebook and run the cells in order.
 Python, pandas, seaborn, matplotlib, SciPy (t-tests and correlations), Jupyter Notebook
 
 > The things we give our attention to shape how we experience life. This project is a gentle reminder to be mindful of how we use social media.
+
+
+---
+
+<sub>Made by [tanaytejush](https://github.com/tanaytejush)</sub>
